@@ -11,7 +11,6 @@
       pkgs = import nixpkgs { inherit system; };
     in {
       pond = pkgs.callPackage ./pkgs/pond { };
-      default = self.packages.${system}.pond;
     });
 
     overlays.default = final: prev: {
