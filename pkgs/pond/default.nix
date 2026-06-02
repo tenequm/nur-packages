@@ -15,9 +15,9 @@ let
   };
 
   urlMap = {
-    x86_64-linux = "https://github.com/tenequm/pond/releases/download/v0.2.2/pond-x86_64-unknown-linux-gnu.tar.xz";
-    aarch64-linux = "https://github.com/tenequm/pond/releases/download/v0.2.2/pond-aarch64-unknown-linux-gnu.tar.xz";
-    aarch64-darwin = "https://github.com/tenequm/pond/releases/download/v0.2.2/pond-aarch64-apple-darwin.tar.xz";
+    x86_64-linux = "https://github.com/tenequm/homebrew-tap/releases/download/pond-v0.2.2/pond-x86_64-unknown-linux-gnu.tar.xz";
+    aarch64-linux = "https://github.com/tenequm/homebrew-tap/releases/download/pond-v0.2.2/pond-aarch64-unknown-linux-gnu.tar.xz";
+    aarch64-darwin = "https://github.com/tenequm/homebrew-tap/releases/download/pond-v0.2.2/pond-aarch64-apple-darwin.tar.xz";
   };
 in
 stdenvNoCC.mkDerivation {
@@ -39,7 +39,7 @@ stdenvNoCC.mkDerivation {
 
   meta = {
     description = "Lossless storage and hybrid search for AI agent sessions, across every agentic client.";
-    homepage = "https://github.com/tenequm/pond";
+    homepage = "https://github.com/tenequm/homebrew-tap";
     license = lib.licenses.asl20;
     mainProgram = "pond";
 
