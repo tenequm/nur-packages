@@ -4,9 +4,9 @@ let
   inherit (hostPlatform) system;
   version = "0.2.8";
   shaMap = {
-    x86_64-linux = "1d2yvry1z7s0w8n9vd642r4s6nfcsmqwpvdxzpnakmhr4939a44n";
-    aarch64-linux = "1zz09r39zkd2a42ry59fvawm7cjl1s7szv4pv83pryxn8k38x6c6";
-    aarch64-darwin = "0z7jzmz4i3rjk0x4n5d67qickgz4f5i76zyha8jgjqzv0ga0grs0";
+    x86_64-linux = "";
+    aarch64-linux = "";
+    aarch64-darwin = "";
   };
   urlMap = {
     x86_64-linux = "https://github.com/tenequm/homebrew-tap/releases/download/pond-v0.2.8/pond-x86_64-unknown-linux-gnu.tar.xz";
