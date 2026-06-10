@@ -2,16 +2,16 @@
 let
   inherit (stdenv) hostPlatform;
   inherit (hostPlatform) system;
-  version = "0.5.1";
+  version = "0.5.2";
   shaMap = {
-    x86_64-linux = "1ygknig4ahh3zdmcs1qfvdcnbk715y9bd5rkgnan8b11248pdvfj";
-    aarch64-linux = "19cxyf11j433im7kwd60v3n5k45dax18h53ih39nwb3injm54sd3";
-    aarch64-darwin = "15m4yc25mlnk65j558k4an284lfxji6dm839s8kx3jszmadxg4b8";
+    x86_64-linux = "14mgl4l0zh1lnspwn3fv6cxpzmgavy7py4jiziqji68qrfw11pmb";
+    aarch64-linux = "0a1pv46l042zywzxbbyj130d6v1mhynccl3h539zyxm2ak81yy69";
+    aarch64-darwin = "18gsazqk98bgq7sj811z0vyf1qpw1smzm4z4yziyw362nxqq5472";
   };
   urlMap = {
-    x86_64-linux = "https://github.com/tenequm/homebrew-tap/releases/download/pond-v0.5.1/pond-x86_64-unknown-linux-gnu.tar.xz";
-    aarch64-linux = "https://github.com/tenequm/homebrew-tap/releases/download/pond-v0.5.1/pond-aarch64-unknown-linux-gnu.tar.xz";
-    aarch64-darwin = "https://github.com/tenequm/homebrew-tap/releases/download/pond-v0.5.1/pond-aarch64-apple-darwin.tar.xz";
+    x86_64-linux = "https://github.com/tenequm/homebrew-tap/releases/download/pond-v0.5.2/pond-x86_64-unknown-linux-gnu.tar.xz";
+    aarch64-linux = "https://github.com/tenequm/homebrew-tap/releases/download/pond-v0.5.2/pond-aarch64-unknown-linux-gnu.tar.xz";
+    aarch64-darwin = "https://github.com/tenequm/homebrew-tap/releases/download/pond-v0.5.2/pond-aarch64-apple-darwin.tar.xz";
   };
 in
 stdenv.mkDerivation {
